@@ -1,0 +1,214 @@
+/* HEADER */
+
+
+body {
+    font-family: 'DM Serif Text', serif, 'Passion One', sans-serif;
+    background-image: url(/images/rockymarcianowalnut.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: yellow;
+    text-shadow: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.line_1 {
+    border-color: rgba(255, 238, 0, 0.932);
+    border-style: solid;
+    border-width: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fffb00;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 8px 10px;
+    font-size: 1em;
+    flex-grow: 1;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.search-box button {
+    background-color: #007BFF;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 15px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
+
+.search-box input::placeholder {
+    color: #000000;
+    font-style: italic;
+}
+
+.search-box input:focus {
+    border-color: #007BFF;
+}
+
+.search-box:focus-within {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Containers */
+
+.containers {
+    margin-top: 0;
+    align-items: flex-start;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box {
+    width: 40%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: transparent;
+    text-align: left;
+}
+
+.history a {
+    color: yellow;
+    text-decoration: none;
+    text-shadow: black;
+}
+
+.history {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+/* Container right */
+
+.container_3 {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+    padding: 20px;
+}
+
+.container_3 a {
+    color: yellow;
+    text-shadow: black;
+}
+
+.basics {
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+.title_3 {
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+/* Sidebar */
+
+sidebar a {
+    color: yellow;
+    text-shadow: black;
+    text-decoration: none;
+}
+
+sidebar ul {
+    color: yellow;
+    text-decoration: black;
+}
+
+/* Container bottom right */
+
+.boxing-styles {
+    color: yellow;
+    text-decoration: #000000;
+    padding: 20px;
+    width: 40%;
+    margin-left: 0; 
+}
+
+/* Container bottom left */
+
+.container_2 {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 35px 20px; 
+}
+
+.text_box2 {
+    width: 40%;
+    padding: 20px;
+}
+
+.rules {
+    margin: 10px;
+    line-height: 0.9;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+.title_2 {
+    font-size: 24px;
+    margin: 10px;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+/* Footer */
+
+.footer {
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 1em 0;
+    margin: 0;
+}

@@ -1,0 +1,254 @@
+body {
+    font-family : 'Roboto', sans-serif;
+    background-color : #000000;
+    color : #333;
+    }
+    header {
+    color : yellow;
+    }
+    h1, h2, h3 {
+    font-weight : 700;
+    }
+    p {
+    font-weight : 400;
+    }
+    .sidebar-title {
+    text-align : left;
+    margin-left : 0;
+    display : flex;
+    }
+    .title {
+    text-align : center;
+    color : yellow;
+    }
+    .container {
+    max-width : 1200px;
+    margin : 0 auto;
+    padding : 30px;
+    border-radius : 20%;
+    border-color : transparent;
+    border-bottom : none;
+    }
+    .table {
+    width : 100%;
+    font-size : 1.2rem;
+    border-color : transparent;
+    background-color : #000000;
+    color : transparent;
+    border-bottom : none;
+    }
+    .table th {
+    background-color : black;
+    border-bottom : transparent;
+    color : rgb(255, 255, 255);
+    }
+    .text_1 {
+    background-image : url("/images/JOKEPAUL.jpg");
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+    height : 400px;
+    }
+    .text_2 {
+    background-image : url("/images/ali2.jpg");
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+    height : 400px;
+    }
+    .text_3 {
+    background-image : url("/images/sugarray2.jpg");
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+    height : 400px;
+    }
+    .title_1 {
+    text-align : center;
+    color : rgb(255, 60, 60);
+    font-weight : bold;
+    }
+    .phrase_1 {
+    color : rgb(0, 26, 255);
+    opacity : 0;
+    animation : fadeInOut 15s infinite alternate;
+    }
+    @keyframes fadeInOut {
+    0% {
+    opacity : 0;
+    }
+    50% {
+    opacity : 1;
+    }
+    100% {
+    opacity : 0;
+    }
+    }
+    .title_2 {
+    text-align : center;
+    color : rgb(255, 0, 0);
+    font-weight : bold;
+    }
+    .phrase_2 {
+    color : rgb(16, 255, 96);
+    font-weight : bold;
+    opacity : 0;
+    animation : fadeInOut 15s infinite alternate;
+    }
+    @keyframes fadeInOut {
+    0% {
+    opacity : 0;
+    }
+    50% {
+    opacity : 1;
+    }
+    100% {
+    opacity : 0;
+    }
+    }
+    .title_3 {
+    text-align : center;
+    color : rgb(255, 0, 0);
+    font-weight : bold;
+    }
+    .phrase_3 {
+    color : rgb(255, 136, 0);
+    font-weight : bold;
+    opacity : 0;
+    animation : fadeInOut 15s infinite alternate;
+    }
+    @keyframes fadeInOut {
+    0% {
+    opacity : 0;
+    }
+    50% {
+    opacity : 1;
+    }
+    100% {
+    opacity : 0;
+    }
+    }
+    .values {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    border-radius : 100px;
+    border : solid;
+    border-width : 10px;
+    background-image : linear-gradient(to left, #000000, #ffe600);
+    width : 400px;
+    margin : 0 auto;
+    height : 100px;
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size : cover;
+    }
+    .values_2 {
+    text-align : center;
+    color : rgb(0, 0, 0);
+    font-weight : bold;
+    }
+    .row {
+    display : flex;
+    }
+    .col {
+    width : 33.33%;
+    padding : 20px;
+    text-align : center;
+    color : yellow;
+    }
+    .col:first-child {
+    width : 33.33%;
+    height : 200px;
+    background-image : url("/images/DISCIPLINE.png");
+    background-size : cover;
+    background-position : center;
+    transition : transform 0.3s ease;
+    }
+    .col:first-child:hover {
+    transform : scale(1.2);
+    }
+    .col:nth-child(2):hover {
+    width : 33.33%;
+    height : 200px;
+    background-size : cover;
+    background-position : center;
+    animation : rotateImages 9s infinite;
+    transition : transform 0.3s ease;
+    }
+    @keyframes rotateImages {
+    33% {
+    background-image : url("/images/tysongetsup1.jpg");
+    }
+    66% {
+    background-image : url("/images/tysongetsup2.jpg");
+    }
+    100% {
+    background-image : url("/images/tysongetsup.jpg");
+    }
+    }
+    .col:nth-child(3) {
+    width : 33.33%;
+    height : 200px;
+    background-image : url("/images/juliocesarchavez.jpg");
+    background-size : cover;
+    background-position : center;
+    transition : all 0.3s ease;
+    border-radius : 0%;
+    cursor : pointer;
+    }
+    .col:nth-child(3):active {
+    border-radius : 50%;
+    background-color : #ff6347;
+    }
+    @media (max-width: 768px) {
+    header {
+    flex-direction : column;
+    align-items : center;
+    }
+    .search-box {
+    width : 100%;
+    margin-top : 10px;
+    }
+    nav ul {
+    flex-direction : column;
+    gap : 10px;
+    text-align : center;
+    }
+    .containers {
+    flex-direction : column;
+    margin : 10px;
+    }
+    .container, .container_3 {
+    width : 100%;
+    padding : 10px;
+    }
+    sidebar {
+    width : 100%;
+    margin-top : 20px;
+    }
+    .footer-links {
+    display : block;
+    margin-top : 10px;
+    }
+    .footer-links a {
+    display : block;
+    margin : 5px 0;
+    text-align : center;
+    }
+    }
+    @media (max-width: 480px) {
+    .logo h1 {
+    font-size : 24px;
+    }
+    nav a {
+    font-size : 16px;
+    }
+    .search-box input {
+    font-size : 14px;
+    }
+    .search-box button {
+    font-size : 14px;
+    }
+}
